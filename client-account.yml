@@ -2,7 +2,7 @@ spring:
   application.name: client-account
   datasource:
     driverClassName: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://host.docker.internal:3306/hkh
+    url: jdbc:mysql://host.docker.internal:3306/loadbalancing
     username: root
     password: 123456@A
   jpa:
